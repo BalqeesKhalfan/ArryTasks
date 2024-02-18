@@ -4,7 +4,7 @@ public class FirstLast6 {
 
 
 
-   // fuction of chcking if the first or  last element of array is 6  and return boolean 
+   // fuction of chcking if the first or  last element of array is 6  and return boolean
     public static boolean firstLast6(int[] nums) {
         return nums[0] == 6 || nums[nums.length - 1] == 6;
     }
